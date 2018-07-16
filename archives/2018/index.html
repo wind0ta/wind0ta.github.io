@@ -109,12 +109,12 @@
 
 
   <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="X.z.H">
 <meta property="og:url" content="http://yoursite.com/archives/2018/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="X.z.H">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="X.z.H">
 
 
 
@@ -131,7 +131,7 @@
   };
 </script>
 
-  <title>归档 | Hexo</title>
+  <title>归档 | X.z.H</title>
   
 
 
@@ -189,7 +189,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">X.z.H</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -314,7 +314,7 @@
         
             <a class="post-title-link" href="/2018/07/14/test-my-site/" itemprop="url">
               
-                <span itemprop="name">test_my_site</span>
+                <span itemprop="name">GitHub+Hexo 搭建个人网站详细教程</span>
               
             </a>
         
@@ -409,7 +409,7 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">John Doe</p>
+              <p class="site-author-name" itemprop="name">wind0ta</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
@@ -428,6 +428,19 @@
 
               
 
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">标签</span>
+                  
+                </div>
               
             </nav>
           
@@ -468,7 +481,7 @@
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">wind0ta</span>
 
   
 
@@ -616,6 +629,30 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(function (item) {
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'sVtOX9aeicN14SiiU7X9vAcA-9Nh9j0Va',
+        appKey: 'vYkVsWiOe1HT8g4vR2OXgtMh',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
